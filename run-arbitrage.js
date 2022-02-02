@@ -8,6 +8,9 @@ const web3 = new Web3(
   new Web3.providers.WebsocketProvider(process.env.INFURA_URL)
 );
 
+//fro web3 to sign Transactions
+web3.eth.accounts.wallet.add(process.env.PRIVATE_KEY);
+
 //connect to kyber
 const kyber = new web3.eth.Contract(
   abis.kyber.kyberNetworkProxy,
