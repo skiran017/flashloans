@@ -1,0 +1,25 @@
+{
+  "name": "flashloans",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skiran017/flashloans.git"
+  },
+  "keywords": [],
+  "author": "skiran017",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skiran017/flashloans/issues"
+  },
+  "homepage": "https://github.com/skiran017/flashloans#readme",
+  "dependencies": {
+    "@uniswap/sdk": "^2.0.5",
+    "dotenv": "^15.0.0",
+    "web3": "^1.7.0"
+  }
+}
